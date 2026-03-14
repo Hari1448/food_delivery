@@ -1,0 +1,16 @@
+--- ALL ORDERS ---
+Order ID: 6980571d09d0c755e39b5f26, Restaurant: 698055cb833ddb14999f62b8, PaymentStatus: paid, Total: 406.45
+Order ID: 6980575209d0c755e39b5f44, Restaurant: 698055cb833ddb14999f62b8, PaymentStatus: paid, Total: 406.45
+Order ID: 6980746da7661ca85d721946, Restaurant: 698073e3d688c546bd20c7f9, PaymentStatus: paid, Total: 406.45
+Order ID: 6980b40514a4b0f02d66a9d7, Restaurant: 69807562f79819bf2928d777, PaymentStatus: paid, Total: 406.45
+Order ID: 6980c3218b69899e22a43875, Restaurant: 69807562f79819bf2928d77b, PaymentStatus: paid, Total: 406.45
+Order ID: 6980c4ce8b69899e22a43889, Restaurant: 69807562f79819bf2928d777, PaymentStatus: paid, Total: 826.45
+
+--- ALL RESTAURANTS ---
+Restaurant ID: 69807562f79819bf2928d777, Name: Hari's Kitchen, Owner: 69803bb85ed8f9fbde6c2fd6
+Restaurant ID: 69807562f79819bf2928d778, Name: Pizza di Napoli, Owner: 69803bb85ed8f9fbde6c2fd6
+Restaurant ID: 69807562f79819bf2928d779, Name: Sushi Zen, Owner: 69803bb85ed8f9fbde6c2fd6
+Restaurant ID: 69807562f79819bf2928d77a, Name: Taco Fiesta, Owner: 69803bb85ed8f9fbde6c2fd6
+Restaurant ID: 69807562f79819bf2928d77b, Name: The Green Bowl, Owner: 69803bb85ed8f9fbde6c2fd6
+Restaurant ID: 69807562f79819bf2928d77c, Name: Sweet Tooth Bakery, Owner: 69803bb85ed8f9fbde6c2fd6
+Restaurant ID: 69ad1da44f69dda8cec653ee, Name: hari's Gourmet Kitchen, Owner: 69ad1da34f69dda8cec653eb

@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-white text-secondary font-sans antialiased overflow-x-hidden;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-white/80 backdrop-blur-xl border border-white/40 shadow-[0_8px_32px_0_rgba(31,38,135,0.07)];
+  }
+  
+  .btn-primary {
+    @apply bg-primary hover:bg-primary-dark text-white font-bold py-3 px-8 rounded-2xl transition-all duration-300 shadow-xl shadow-orange-200 hover:shadow-orange-300 transform hover:-translate-y-1 active:scale-95 uppercase tracking-wider text-sm;
+  }
+
+  .btn-pill {
+    @apply bg-primary hover:bg-primary-dark text-white font-bold py-3 px-10 rounded-full transition-all duration-300 shadow-2xl shadow-orange-300/50 hover:shadow-orange-400/50 transform hover:-translate-y-1 active:scale-95 uppercase tracking-widest text-xs flex items-center space-x-2;
+  }
+
+  
+  .nav-link {
+    @apply text-gray-400 hover:text-primary font-bold uppercase tracking-widest text-[10px] transition-all duration-300 cursor-pointer;
+  }
+
+  .input-field {
+    @apply block w-full pl-12 pr-4 py-4 border border-gray-100 rounded-2xl bg-gray-50 focus:bg-white focus:ring-4 focus:ring-primary/10 transition-all text-sm outline-none;
+  }
+}
+
+/* Custom Utilities */
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-orange-400;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-50;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-200 rounded-full hover:bg-gray-300 transition-colors;
+}
